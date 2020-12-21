@@ -1,0 +1,13 @@
+{
+  "name": "geriano/session",
+  "description": "Session Handler",
+  "require": {
+    "php": "8",
+    "geriano/encryption": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Geriano\\Session\\":"src"
+    }
+  }
+}
